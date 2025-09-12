@@ -37,6 +37,19 @@ description: Modern React Deep Dive study overview
 
 ***
 
+### 🔎 GitHub ↔ GitBook 동기화 흐름
+
+#### 1. GitHub → GitBook&#x20;
+
+* **개인 브랜치에서 작업 → PR 생성 → PR 머지 → 자동으로 GitBook에도 반영**
+
+#### 2. GitBook → GitHub
+
+* **GitBook 개인 Space에서 작업 → CR 제목 입력 → CR 머지 → GitHub 개인 브랜치에 반영** \
+  **→ PR 생성 → PR 머지**&#x20;
+
+***
+
 ### 🪧Rules
 
 #### 🤝 그라운드 룰
@@ -58,16 +71,19 @@ description: Modern React Deep Dive study overview
     git pull --rebase origin react
     ```
 
+#### 🤝 CR 규칙
+
+* **GitBook** 작업 시 상단의 <mark style="background-color:yellow;">**CR 제목**</mark>을 작성하세요.&#x20;
+
 #### 🤝 PR 및 이슈 규칙
 
-* 매주 화요일까지 react 브랜치로  PR합니다.
+* 매주 화요일까지 react 브랜치로 PR, 머지합니다.
 * 어려운 문제를 만났을 경우, Discussions탭의 [Q\&A](https://github.com/front-studium/solveit/discussions/categories/q-a)를 활용해 질문 및 해결 방법을 공유합니다.
 
 #### 🤝 커밋 규칙
 
 * 정해진 분량 만큼 정리한 내용을 커밋합니다.
 * 아래의 커밋 메시지 작성 규칙을 따릅니다.
-* **GitBook 작업 시** **커밋타입 gitbook-#: 이 자동 생성**됩니다. 따라서 <mark style="background-color:yellow;">**메시지만 작성**</mark>하세요.&#x20;
 
-<table><thead><tr><th width="117">커밋 타입</th><th width="291">설명</th><th>예시 메시지</th></tr></thead><tbody><tr><td><code>ch#:</code></td><td>챕터별 정리 추가</td><td><code>ch5: 리액트와 상태 관리 라이브러리 정리</code></td></tr><tr><td><code>update:</code></td><td>기존 문서 보강/수정 <br>(내용 확장, 예제 추가 등)</td><td><code>update: ch2에 컴포넌트 예시 추가</code>      </td></tr><tr><td><code>docs:</code></td><td>리드미 업데이트 </td><td><code>docs: update README</code> </td></tr><tr><td><code>chore:</code></td><td>기타 변경 사항</td><td><code>chore: update package dependencies</code></td></tr><tr><td><code>gitbook-#:</code></td><td>GitBook에서 작업 시 <br>자동 생성되는 타입 </td><td><code>gitbook-4: 작성한 커밋 메시지</code> </td></tr></tbody></table>
+<table><thead><tr><th width="117">커밋 타입</th><th width="291">설명</th><th>예시 메시지</th></tr></thead><tbody><tr><td><code>ch#:</code></td><td>챕터별 정리 추가</td><td><code>ch5: 리액트와 상태 관리 라이브러리 정리</code></td></tr><tr><td><code>update:</code></td><td>기존 문서 보강/수정 <br>(내용 확장, 예제 추가 등)</td><td><code>update: ch2에 컴포넌트 예시 추가</code>      </td></tr><tr><td><code>docs:</code></td><td>리드미 업데이트 </td><td><code>docs: update README</code> </td></tr><tr><td><code>chore:</code></td><td>기타 변경 사항</td><td><code>chore: update package dependencies</code></td></tr></tbody></table>
 
