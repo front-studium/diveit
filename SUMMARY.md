@@ -1,3 +1,3 @@
 # Table of contents
 
-* [📖 Modern React Deep Dive](README.md)
+* [Page](README.md)
