@@ -31,7 +31,8 @@ description: Modern React Deep Dive study overview
 ### **🪄Study Workflow**
 
 * 발표자는 매주 한 명씩 랜덤으로돌아가며 진행
-* 발표자가아닌팀원들은정리한내용중발표자와중복되지 않는 내용만 발표
+* 발표자가 아닌 팀원들은 정리한 내용 중 발표자와 중복되지 않는 내용만 발표
+* 각자 공부한 챕터의 핵심을 **질문으로 변환** → 스터디에서 릴레이식으로 답변
 * 공부하다 모르는 질문은 GitHub Discussions에 미리 올려서 질의응답및토론
 * <mark style="background-color:yellow;">**개인 브랜치에 ch1, ch2 ... 폴더를 생성**</mark>하고 그 안에 정리한내용을 작성합니다.
 
@@ -88,4 +89,4 @@ GitBook 개인 Space에서 작업 → CR 제목 입력 → CR 머지 → GitHub 
 * 정해진 분량 만큼 정리한 내용을 커밋합니다.
 * 아래의 커밋 메시지 작성 규칙을 따릅니다.
 
-<table><thead><tr><th width="117">커밋 타입</th><th width="291">설명</th><th>예시 메시지</th></tr></thead><tbody><tr><td><code>ch#:</code></td><td>챕터별 정리 추가</td><td><code>ch5: 리액트와 상태 관리 라이브러리 정리</code></td></tr><tr><td><code>update:</code></td><td>기존 문서 보강/수정<br>(내용 확장, 예제 추가 등)</td><td><code>update: ch2에 컴포넌트 예시 추가</code></td></tr><tr><td><code>docs:</code></td><td>리드미 업데이트</td><td><code>docs: update README</code></td></tr><tr><td><code>chore:</code></td><td>기타 변경 사항</td><td><code>chore: update package dependencies</code></td></tr></tbody></table>
+<table><thead><tr><th width="117">커밋 타입</th><th width="291">설명</th><th>예시 메시지</th></tr></thead><tbody><tr><td><code>ch#-</code></td><td>챕터별 정리 추가</td><td><code>ch5-리액트와 상태 관리 라이브러리 정리</code></td></tr><tr><td><code>update-</code></td><td>기존 문서 보강/수정<br>(내용 확장, 예제 추가 등)</td><td><code>update-ch2에 컴포넌트 예시 추가</code></td></tr><tr><td><code>docs-</code></td><td>리드미 업데이트</td><td><code>docs-update README</code></td></tr><tr><td><code>chore-</code></td><td>기타 변경 사항</td><td><code>chore-update package dependencies</code></td></tr></tbody></table>
