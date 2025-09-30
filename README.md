@@ -11,11 +11,11 @@ description: Modern React Deep Dive study overview
 
 ### 📅 Study Schedule
 
-* 기간: 2025-09-24 \~ 2025-11-26
-* 매주 수요일 오후 1시
+* 기간: 2025-09-24 \~ 2025-11-27
+* 매주 목요일 오후 1시
 * 목표: **Chapter 1 \~ 15 완독 및 토론**&#x20;
 
-<table data-full-width="false"><thead><tr><th data-type="number">주차</th><th>날짜</th><th>범위</th><th data-type="users" data-multiple>발표자</th><th data-type="number">관련 이슈</th></tr></thead><tbody><tr><td>1</td><td>9/24</td><td>~ 1.6</td><td></td><td>null</td></tr><tr><td>2</td><td>10/1</td><td>1.7 ~ Ch2</td><td></td><td>null</td></tr><tr><td>3</td><td>10/8 (추석)</td><td>즐거운 휴일 </td><td></td><td>null</td></tr><tr><td>4</td><td>10/15</td><td>Ch3 ~ 4.2</td><td></td><td>null</td></tr><tr><td>5</td><td>10/22</td><td>4.3 ~ Ch5</td><td></td><td>null</td></tr><tr><td>6</td><td>10/29</td><td>Ch6 ~ 8.1</td><td></td><td>null</td></tr><tr><td>7</td><td>11/5</td><td>8.2 ~ 9.3</td><td></td><td>null</td></tr><tr><td>8</td><td>11/12</td><td>9.4 ~ Ch10</td><td></td><td>null</td></tr><tr><td>9</td><td>11/19</td><td>Ch11 ~ Ch12</td><td></td><td>null</td></tr><tr><td>10</td><td>11/26</td><td>Ch13 ~ Ch15</td><td></td><td>null</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th data-type="number">주차</th><th>날짜</th><th>범위</th><th data-type="users" data-multiple>발표자</th><th data-type="number">관련 이슈</th></tr></thead><tbody><tr><td>1</td><td>9/24</td><td>~ 1.6</td><td></td><td>null</td></tr><tr><td>2</td><td>10/2</td><td>1.7 ~ Ch2</td><td></td><td>null</td></tr><tr><td>3</td><td>10/9 (추석)</td><td>즐거운 휴일 </td><td></td><td>null</td></tr><tr><td>4</td><td>10/16</td><td>Ch3 ~ 4.2</td><td></td><td>null</td></tr><tr><td>5</td><td>10/23</td><td>4.3 ~ Ch5</td><td></td><td>null</td></tr><tr><td>6</td><td>10/30</td><td>Ch6 ~ 8.1</td><td></td><td>null</td></tr><tr><td>7</td><td>11/6</td><td>8.2 ~ 9.3</td><td></td><td>null</td></tr><tr><td>8</td><td>11/13</td><td>9.4 ~ Ch10</td><td></td><td>null</td></tr><tr><td>9</td><td>11/20</td><td>Ch11 ~ Ch12</td><td></td><td>null</td></tr><tr><td>10</td><td>11/27</td><td>Ch13 ~ Ch15</td><td></td><td>null</td></tr></tbody></table>
 
 ***
 
