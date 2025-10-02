@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page](README.md)
+- [README](README.md)
+- [Chapter 1](sgoldenbird/ch1.md)
