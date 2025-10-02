@@ -34,7 +34,7 @@ description: Modern React Deep Dive study overview
 * 발표자가 아닌 팀원들은 정리한 내용 중 발표자와 중복되지 않는 내용만 발표
 * 각자 공부한 챕터의 핵심을 **질문으로 변환** → 스터디에서 릴레이식으로 답변
 * 공부하다 모르는 질문은 GitHub Discussions에 미리 올려서 질의응답및토론
-* <mark style="background-color:yellow;">**개인 브랜치에 ch1, ch2 ... 폴더를 생성**</mark>하고 그 안에 정리한내용을 작성합니다.
+* <mark style="background-color:yellow;">**개인 브랜치에 자기 폴더를 생성**</mark>하고 그 안에 정리한내용을 작성합니다.
 
 ***
 
