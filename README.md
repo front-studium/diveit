@@ -1,7 +1,3 @@
----
-description: Modern React Deep Dive study overview
----
-
 # 📖 Modern React Deep Dive
 
 이 공간은 **모던 리액트 딥다이브** 책을 기반으로 한 스터디 기록 아카이브입니다.\
