@@ -1,12 +1,14 @@
 # Table of contents
 
 - [Modern React Deep Dive Study](README.md)
-- [시은](undefined/README.md)
-  - [Ch1](sgoldenbird/ch1.md)
-  - [Interview Qs](undefined/interview/question-list.md)
-  - [Interview As](sgoldenbird/interview/ch1.md)
-- [인성](undefined-1/README.md)
-  - [Chapter 1](Insung-Jo/ch1.md)
-  - [Interview Questions](Insung-Jo/quiz.md)
-- [수진](undefined-2.md)
-- [유진](undefined-3.md)
+- 시은
+  - [Interview Qs](sgoldenbird/interview/question-list.md)
+  - Ch.1
+    - [Takeaways](sgoldenbird/ch1.md)
+    - [Interview](sgoldenbird/interview/ch1.md)
+- 인성
+  - Ch.1
+    - [Chapter 1](Insung-Jo/ch1.md)
+    - [Interview Questions](Insung-Jo/quiz.md)
+- 수진
+- 유진
