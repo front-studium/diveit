@@ -1,5 +1,5 @@
 # Table of contents
 
 - [README](README.md)
-- [Interview Questions](sgoldenbird/q.md)
-- [Chapter 1](sgoldenbird/ch1.md)
+- [Interview Questions](yujin/interview_q.md)
+- [Chapter 1](yujin/ch1.md)
