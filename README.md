@@ -57,7 +57,7 @@
 
 ## Members
 
-- 송시은 [sgoldenbird](https://github.com/sgoldenbird)
+- 송시은 [sgoldenbird](https://github.com/sgoldenbird) ⚡
 - 손수진 [pappaya109](https://github.com/pappaya109)
 - 조인성 [Insung-Jo](https://github.com/Insung-Jo)
 - 전유진 [yuj2n](https://github.com/yuj2n)
