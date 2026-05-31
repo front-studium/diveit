@@ -1,4 +1,5 @@
 # Next
+
 <!--
 <p align="right">
   <a href="https://discord.gg/8vn2pZ6p">
@@ -58,14 +59,58 @@
 
 ## Members
 
-- 송시은 [sgoldenbird](https://github.com/sgoldenbird)
+- 송시은 [sgoldenbird](https://github.com/sgoldenbird) ⚡
 - 손수진 [pappaya109](https://github.com/pappaya109)
 - 전유진 [yuj2n](https://github.com/yuj2n)
 
-  # 원격(GitHub)에 새 브랜치 등록 및 푸시
-  git push -u origin [새-브랜치명]
+## Structure & Workflow
+
+본 저장소는 다음과 같은 구조와 흐름으로 구성되어 있습니다.
+
+- Domain별로 브랜치를 나누어 학습하고, 최종 결과물은 `main` 브랜치에 통합합니다.
+- 폴더 구조
 
   ```
+  [domain]/[track]/[member]/[content.md]
+  e.g.typescript/onebite/sgoldenbird/ch1.md
+  ```
+
+- 브랜치 갱신 가이드
+  - 이전 학습이 완료되어 main에 머지된 후, 새로운 학습을 시작할 때 반드시 아래 순서대로 브랜치를 최신화합니다.
+  - **Step 1. 구 브랜치 삭제 (정리)**
+
+    ```
+    로컬과 원격에 남아있는 이전 작업 브랜치를 삭제합니다.
+
+    로컬 브랜치 삭제
+      git branch -D [예전-브랜치명]
+
+    원격 브랜치 삭제
+      git push origin --delete [예전-브랜치명]
+    ```
+
+  - **Step 2. 베이스 브랜치 최신화**
+
+    ```
+    새로운 학습의 기준이 될 도메인 브랜치로 이동하여 최신 내용을 불러옵니다.
+
+    베이스 브랜치로 이동 및 최신화
+    git checkout [학습할 도메인 브랜치(베이스 브랜치)]
+    git pull origin [학습할 도메인 브랜치(베이스 브랜치)]
+    ```
+
+  - **Step 3. 새 브랜치 생성 및 연결**
+
+    ```
+    새로운 주제를 학습하기 위한 본인만의 브랜치를 생성하고 원격에 연결합니다.
+
+    새로운 자기 브랜치 생성 및 이동
+    git checkout -b [새-브랜치명]
+
+    원격(GitHub)에 새 브랜치 등록 및 푸시
+    git push -u origin [새-브랜치명]
+
+    ```
 
 - GitHub ↔ GitBook 동기화 흐름
 
@@ -82,7 +127,45 @@
 
 ## Rules
 
-- [그라운드 룰, PR/CR 및 이슈 규칙, 커밋 규칙](https://github.com/planet-devo-k/diveit/tree/main?tab=readme-ov-file#rules)
+**Ground Rules**
+
+- [PLANET DEVO K GROUND RULES](https://github.com/planet-devo-k#ground-rules)
+
+**Branch & Directory**
+
+- Branch: 도메인별 브랜치를 기준으로 각자의 작업을 진행한 뒤 통합합니다.
+  - main: 최종 결과물이 통합되는 프로덕션 브랜치
+  - [domain]: 각 도메인의 기준이 되는 베이스 브랜치
+  - [member]: 각 도메인 브랜치에서 분기한 개인 작업 브랜치
+
+- Directory: 학습 내용은 도메인과 주제별로 분류하며, 개인별 작업 공간을 보장합니다.
+  - 구조: [domain] / [track] / [member] / [content.md]
+  - domain: 대분류 (예: typescript, react)
+  - track: (예: onebite, deepdive)
+  - member: 본인의 GitHub ID 또는 닉네임
+  - content.md: 실제 학습 정리 파일
+  - 예시: typescript/onebite/sgoldenbird/ch1.md
+
+**PR**
+
+- 매주 **스터디 시작 1시간 전**까지 `main` 브랜치로 PR을 제출합니다.
+- PR 정책은 트랙마다 상이합니다. 자세한 내용은 해당 트랙의 리드미를 확인해주세요.
+
+**Issue**
+
+- 질의응답
+  - [Q&A](https://github.com/planet-devo-k/diveit/discussions/categories/q-a)활용
+  - 해당 PR에 question label 추가
+  - 해당 PR에 이슈 넘버 추가
+
+**GitBook**
+
+- 깃북의 목차와 구조를 결정하는 SUMMARY.md를 작성합니다.
+- **GitBook**에서 작업 시 상단의 <mark style="background-color:yellow;">**CR 제목**</mark>을 커밋 메시지 규칙에 맞게 작성하세요.
+
+**Commit**
+
+- 정해진 분량 만큼 정리한 내용을 커밋합니다.
     <table>
       <thead>
         <tr>
@@ -104,24 +187,23 @@
         </tr>
         <tr>
           <td><code>docs: </code></td>
-          <td><strong>메인 문서 관리</strong><br />README 및 가이드라인 수정</td>
+          <td><strong>메인 문서 관리</strong><br />README 업데이트</td>
           <td><code>docs: update README</code></td>
         </tr>
         <tr>
           <td><code>chore: </code></td>
-          <td><strong>기타 변경 사항</strong><br />파일 이동, 폴더 구조 정리 등</td>
+          <td><strong>기타 변경 사항</strong><br /></td>
           <td><code>chore: move assets</code></td>
         </tr>
       </tbody>
     </table>
+
+---
+
 <p align="right">
-  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-    <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License: CC BY-NC-SA 4.0">
-  </a>
-  <br/>
-  <sub><b>Course Materials</b>: Copyright © Original Author. All rights reserved.</sub>
-  <br/>
-  <sub><b>Study Notes</b>: Copyright © 2026 sgoldenbird. Licensed under CC BY-NC-SA 4.0.</sub>
+  <sub><b>Original Resources</b>: Copyright © Original Author. All rights reserved.</sub><br/>
+  <sub><b>Infrastructure & Systems</b>: Copyright © 2026 sgoldenbird. All rights reserved.</sub><br/>
+  <sub><b>Participant Works</b>: Copyright © 2026 planet-devo-k. All rights reserved.</sub><br/>
 </p>
 
 ---
