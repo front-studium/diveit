@@ -1,0 +1,101 @@
+# 한입 넥스트
+
+## Introduction
+**목표**
+- 넥스트 기본 학습 
+
+**리소스**
+- 한 입 크기로 잘라먹는 넥스트 강의 총 58강
+
+**운영**
+- 일시: 매주 일요일 오후 10시 30분
+- 기간: 2026-03-15 ~ 2026-04-19
+- 장소: 온라인 디스코드 Planet Devo K 해당 스터디 채널
+- 방식: 매주 정해진 분량을 학습하고 정리한 후 랜덤 발표, 토론, 복습 및 질의응답
+
+## Schedule
+
+<table>
+  <thead>
+    <tr>
+      <th>주차</th>
+      <th>날짜</th>
+      <th>범위</th>
+      <th>발표자</th>
+      <th>관련 이슈</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>3/15</td>
+      <td>OT</td>
+      <td></td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>3/22</td>
+      <td>1.1 ~ 2.15</td>
+      <td>시은, 수진, 유진</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>3/29</td>
+      <td>2.16 ~ 4</td>
+      <td>시은, 수진, 유진</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>4/5</td>
+      <td>5 ~ 6</td>
+      <td>시은, 수진, 유진</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4/12</td>
+      <td>7 ~ 8</td>
+      <td>시은, 수진, 유진</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>4/19</td>
+      <td>9 ~ 10</td>
+      <td>시은, 수진, 유진</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>4/26</td>
+      <td>총 정리 및 회고</td>
+      <td><a href="./sgoldenbird/retrospective.md">시은</a>, 수진, 유진</td>
+      <td>null</td>
+    </tr>
+  </tbody>
+</table>
+
+## Members
+
+- 송시은 [sgoldenbird](https://github.com/sgoldenbird)
+- 손수진 [pappaya109](https://github.com/pappaya109)
+- 전유진 [yuj2n](https://github.com/yuj2n) 
+
+## [Structure & Workflow](https://github.com/planet-devo-k/diveit/tree/main?tab=readme-ov-file#structure--workflow)
+
+- 자기 브랜치를 만들고 자기 폴더 안에 내용 정리
+- 매주 정해진 분량을 팀원들이 나누어 함께 발표를 진행합니다.
+- 발표자가 아닌 팀원들은 본인이 정리한 내용 중 발표자와 중복되지 않는 내용을 추가로 공유합니다.
+- 강의가 실습 위주이므로 직접 작성한 코드를 화면 공유하며 설명합니다.
+
+## Rules
+
+**[Ground Rules](https://github.com/planet-devo-k/diveit/tree/main?tab=readme-ov-file#rules)**
+| **[Branch & Directory](https://github.com/planet-devo-k/diveit/tree/main?tab=readme-ov-file#rules)**
+| **[PR](https://github.com/planet-devo-k/diveit/tree/main?tab=readme-ov-file#rules)**
+| **[Issue](https://github.com/planet-devo-k/diveit/tree/main?tab=readme-ov-file#rules)**
+| **[GitBook](https://github.com/planet-devo-k/diveit/tree/main?tab=readme-ov-file#rules)**
+| **[Commit](https://github.com/planet-devo-k/diveit/tree/main?tab=readme-ov-file#rules)**
